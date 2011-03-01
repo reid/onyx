@@ -3,8 +3,8 @@ testdir="test"
 vows=`which vows 2>&1`
 ret=$?
 if [ $ret -ne 0 ] || ! [ -x $vows ]; then
-    echo "Unable to find the vows test runner." >&2
-    echo "Install Vows, available at http://vowsjs.org" >&2
+    echo "Unable to run Vows." >&2
+    echo "Try \`make install-dev\` to install Vows." >&2
     exit $ret
 fi
 [ ! -d $testdir ] && cd ..
