@@ -1,5 +1,5 @@
 #!/bin/sh
-vows="./node_modules/vows/bin/vows"
+vows="./node_modules/.bin/vows"
 [ ! -x $vows ] && cd ..
 if [ ! -x $vows ]; then
     echo "Unable to run Vows." >&2
