@@ -6,4 +6,4 @@ if [ ! -x $vows ]; then
     echo "Try \`make install-dev\` to install Vows." >&2
     exit $ret
 fi
-$vows $@
+MOCHA_SHOW_STACK=1 $vows $@
