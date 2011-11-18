@@ -1,5 +1,5 @@
 /*!
- * YUI Mocha
+ * YUI Onyx
  * Copyright 2011 Yahoo! Inc.
  * Licensed under the BSD license.
  */
