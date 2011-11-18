@@ -41,11 +41,13 @@ vows.describe("Onyx").addBatch({
                 assert.equal(topic.size, 36);
             },
             "yields the latest mtime of all files" : function (topic) {
-                var latest = topic.mtime.getTime();
-                for (var filename in topic.files) {
-                    var f = topic.files[filename];
-                    assert.strictEqual(latest >= f.mtime.getTime(), true);
-                };
+                var fileName,
+                    file,
+                    latest = topic.mtime.getTime();
+                for (fileName in topic.files) {
+                    file = topic.files[fileName];
+                    assert.strictEqual(latest >= file.mtime.getTime(), true);
+                }
             },
             "yields the stats of all files" : function (topic) {
                 Object.keys(topic.files).forEach(function (f) {
