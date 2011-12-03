@@ -1,6 +1,6 @@
 {
   "name": "onyx",
-  "description": "Fast Node.js static file server",
+  "description": "Fast Node.js static file server.",
   "keywords" : [
     "static",
     "HTTP",
@@ -13,7 +13,7 @@
     "name": "Reid Burke",
     "email": "me@reidburke.com"
   }],
-  "main": "lib/onyx.js",
+  "main": "./lib/onyx",
   "directories": {
     "lib": "./lib"
   },
