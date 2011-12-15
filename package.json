@@ -13,7 +13,7 @@
     "name": "Reid Burke",
     "email": "me@reidburke.com"
   }],
-  "main": "./lib/onyx",
+  "main": "./lib/index",
   "directories": {
     "lib": "./lib"
   },

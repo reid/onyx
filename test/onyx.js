@@ -9,7 +9,7 @@ var vows = require("vows");
 var fs = require("fs");
 var mockWritableStream = require("./lib/writable-stream.js");
 
-var Onyx = require("../lib/onyx").Onyx;
+var Onyx = require("../lib/index").Onyx;
 
 function mockRequest () {
     return {
