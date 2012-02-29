@@ -6,7 +6,7 @@
     "HTTP",
     "streaming"
   ],
-  "version": "0.1.2",
+  "version": "0.1.3pre",
   "homepage": "http://yuilibrary.com/",
   "author": "Reid Burke <me@reidburke.com> (http://reidburke.com/)",
   "contributors": [{
